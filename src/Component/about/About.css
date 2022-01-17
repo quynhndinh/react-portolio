@@ -54,6 +54,15 @@ a.bottom__to__top.active{
     .p__color {
         font-size: 15px!important;
     }
-    
 }
 
+@media only screen and (max-width: 390px){
+    button.about.btn1.pointer {
+        max-width: 50%;
+        font-size: 90%;
+    }
+    button.about.btn2.pointer {
+        max-width: 50%;
+        font-size: 90%;
+    }
+}

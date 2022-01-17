@@ -5,12 +5,6 @@
   background-size: cover;
 }
 
-.logo {
-  width: 23%;
-  height: 23%;
-  margin-right: auto;
-}
-
 li.nav_items {
   font-size: 18px;
   padding-bottom: 15px;
@@ -50,19 +44,11 @@ h3.home__text {
 }
 
 @media only screen and (max-width: 768) {
-  .navbar.pxy__30 {
-    display: none;
-  }
   .header {
     justify-content: space-between;
   }
 
   h2.white.pz__10 {
     font-size: 50px !important;
-  }
-
-  svg.bi.bi-justify.white.pointer {
-    width: 40px;
-    height: 40px;
   }
 }

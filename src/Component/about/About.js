@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "../../image/Profile.jpg";
+import resumeImg from "../../image/resume.png";
 
 function About() {
   //up to top btn
@@ -8,6 +9,15 @@ function About() {
     const upToTop = this.document.querySelector("a.bottom__to__top");
     upToTop.classList.toggle("active", window.scrollY > 0);
   });
+
+  // document.querySelector('#resumeBtn').addEventListener('click', openResumeImg);
+
+  // function openResumeImg () {
+    
+  // }
+
+  // })
+
   return (
     <div className="About component__space" id="About">
       <div className="container">
@@ -23,12 +33,11 @@ function About() {
                 Currently learning HTML CSS and Javascript.
               </p>
               <p className="about__text p__color">
-                Student at Rutgers Coding bootcamp, starting a new career path.
-                Currently learning HTML CSS and Javascript.
+                Thank you for joining with me on this adventure of learning 
               </p>
               <div className="about__button d__flex align_items_center">
-                <a href="#">
-                  <button className="about btn1 pointer">Resume</button>
+                <a>
+                  <button id='resumeBtn' className="about btn1 pointer">Resume</button>
                 </a>
                 <a href="#Contact">
                   <button className="about btn2 pointer">Contact</button>

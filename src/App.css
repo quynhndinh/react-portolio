@@ -171,10 +171,8 @@ button.about.btn2.pointer:hover {
 }
 @media only screen and (max-width: 425px){
 .col__3 {
-    max-width: 100%;
+  max-width: 100%;
 }
-}
-@media only screen and (max-width: 425px){
 span.copyright {
     font-size: 13px!important;
 }
