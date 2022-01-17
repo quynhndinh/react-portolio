@@ -20,7 +20,7 @@ function About() {
                 Currently learning HTML CSS and Javascript.
               </p>
               <p className="about__text p__color">
-                Thank you for joining with me on this adventure of learning
+                Thank you for joining with me on this learning adventure.
               </p>
               <div className="about__button d__flex align__items__center">
                 <a
