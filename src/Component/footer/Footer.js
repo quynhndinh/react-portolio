@@ -1,17 +1,17 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import footerImg from '../../image/quynhdinhlogo.png';
 import githubImg from '../../image/github.png';
 import linkedin from '../../image/linkinin.png';
 function Footer() {
     return (
-        <div className='footer d__flex align__items__center justify__content__space__between pz-10' style={{"padding":"10px 20px", "zIndex":"100"}}>
+        <div className='footer d_flex align_items_center justify_content_space_between pz-10' style={{"padding":"10px 20px", "zIndex":"100"}}>
             <div className='quynhndinhlogo'>
                 <a href=''>
-                    <img src={footerImg} alt='' className='footer__img' />
+                    <img src={footerImg} alt='' className='footer_img' />
                 </a>
                 <a href='https://github.com/quynhndinh' target='_blank'>
-                    <img src={githubImg} alt='' className='github__img pointer' />
+                    <img src={githubImg} alt='' className='github_img pointer' />
                 </a>
                 <a href='https://www.linkedin.com/in/quynh-dinh-711989118/' target='_blank'>
                     <img src={linkedin} alt='' className='linkedin pointer' />

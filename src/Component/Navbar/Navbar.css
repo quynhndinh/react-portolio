@@ -25,14 +25,14 @@ li.nav_items {
   padding: 0px 30px;
   background-color: #191919;
 }
-.toggle__menu {
+.toggle_menu {
   display: flex;
   justify-content: flex-end;
   float: right;
   z-index: 1000;
   width: 100%;
 }
-ul.sidebar.d__flex {
+ul.sidebar.d_flex {
   flex-wrap: wrap;
   height: 100%;
   position: fixed;
@@ -60,7 +60,7 @@ svg.bi.bi-justify.white.pointer{
 .navigation {
     display: none;
   }
-h2.white.pz__10 {
+h2.white.pz_10 {
   font-size: 50px!important;
 }
 svg.bi.bi-justify.white.pointer {

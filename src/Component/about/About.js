@@ -6,23 +6,23 @@ import resumePdf from "../../image/resume.pdf";
 function About() {
  
   return (
-    <div className="About component__space" id="About">
+    <div className="About component_space" id="About">
       <div className="container">
         <div className="row">
-          <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img"></img>
+          <div className="col_2">
+            <img src={aboutImg} alt="" className="about_img"></img>
           </div>
-          <div className="col__2">
-            <h1 className="about__heading">About Me</h1>
-            <div className="about__meta">
-              <p className="about__text p__color">
+          <div className="col_2">
+            <h1 className="about_heading">About Me</h1>
+            <div className="about_meta">
+              <p className="about_text p_color">
                 Student at Rutgers Coding bootcamp, starting a new career path.
                 Currently learning HTML CSS and Javascript.
               </p>
-              <p className="about__text p__color">
+              <p className="about_text p_color">
                 Thank you for joining with me on this adventure of learning
               </p>
-              <div className="about__button d__flex align_items_center">
+              <div className="about_button d_flex align_items_center">
                 <a
                   className="about btn1 pointer"
                   href={resumePdf}

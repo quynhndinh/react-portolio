@@ -10,25 +10,25 @@ li.nav_items {
   padding-bottom: 15px;
 }
 
-.home__content {
+.home_content {
   padding: 125px 0px;
 }
 
-h1.home__text {
+h1.home_text {
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 3px;
   color: rgba(198, 201, 216, 0.75) !important;
 }
 
-h2.home__text {
+h2.home_text {
   font-size: 54px;
   line-height: 54px;
   font-weight: 800;
   font-family: Montserrat, sans-serif;
 }
 
-h3.home__text {
+h3.home_text {
   font-size: 54px;
   line-height: 40px;
   font-weight: 800;
@@ -48,7 +48,7 @@ h3.home__text {
     justify-content: space-between;
   }
 
-  h2.white.pz__10 {
+  h2.white.pz_10 {
     font-size: 50px !important;
   }
 }

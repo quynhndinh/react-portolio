@@ -1,8 +1,8 @@
-img.about__img{
+img.about_img{
     border-radius: 10px;
     width: 100%;
 }
-h1.about__heading{
+h1.about_heading{
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
@@ -24,11 +24,11 @@ button.about.btn2.pointer {
     transition: .4s ease;
 }
 
-.about__button{
+.about_button{
     padding: 20px 0px;
 }
 
-a.bottom__to__top{
+a.bottom_to_top{
     width: 40px;
     height: 40px;
     position: fixed;
@@ -44,14 +44,14 @@ a.bottom__to__top{
     z-index: 1000;
 }
 
-a.bottom__to__top.active{
+a.bottom_to_top.active{
     display: flex;
 }
 
 /*media responsive */
 
 @media only screen and (max-width: 1024px){
-    .p__color {
+    .p_color {
         font-size: 15px!important;
     }
 }

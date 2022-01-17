@@ -10,35 +10,35 @@ function Navbar() {
   });
    //up to top btn
    window.addEventListener("scroll", function () {
-    const upToTop = this.document.querySelector("a.bottom__to__top");
+    const upToTop = this.document.querySelector("a.bottom_to_top");
     upToTop.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
    const [show, setShow] = useState(true);
   return (
     <div className="Navbar" id="navbar">
-      <div className="header d__flex align__items__center pxy__30">
+      <div className="header d_flex align_items_center pxy_30">
         <div className="logo">
           <img className="logo" src={logo} alt="" />
         </div>
-        <div className="navigation pxy__30">
-          <ul className="navbar d__flex">
+        <div className="navigation pxy_30">
+          <ul className="navbar d_flex">
             <a href="#Home">
-              <li className="nav_items mx__15">Home</li>
+              <li className="nav_items mx_15">Home</li>
             </a>
             <a href="#About">
-              <li className="nav_items mx__15">About</li>
+              <li className="nav_items mx_15">About</li>
             </a>
             <a href="#Projects">
-              <li className="nav_items mx__15">Projects</li>
+              <li className="nav_items mx_15">Projects</li>
             </a>
             <a href="#Contact">
-                <li className="nav__items mx__15">Contact</li>
+                <li className="nav_items mx_15">Contact</li>
               </a>
             </ul>
           </div>
           {/* Toogle Menu */}
-          <div className="toggle__menu">
+          <div className="toggle_menu">
             <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -55,7 +55,7 @@ function Navbar() {
           </div>
           {show ?(
           <div className="sideNavbar">
-              <ul className="sidebar d__flex">
+              <ul className="sidebar d_flex">
               <li className="sideNavbar">
               <a href="#home">Home</a>
             </li>
@@ -74,8 +74,8 @@ function Navbar() {
            ) : null}
         </div>
              {/* Up to Top Btn */}
-      <div className="bottom__to__top__btn">
-        <a href="#" className="bottom__to__top">
+      <div className="bottom_to_top_btn">
+        <a href="#" className="bottom_to_top">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
