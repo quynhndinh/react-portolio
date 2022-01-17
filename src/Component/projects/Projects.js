@@ -10,8 +10,8 @@ function Projects() {
     <div className="Project component__space" id="Projects">
       <div className="heading">
         <h1 className="heading">Projects</h1>
-        <p className="heading p__color">insert heading sample</p>
-        <p className="heading p__color">insert heading sample</p>
+        <p className="heading p__color">Here are some of my recently </p>
+        <p className="heading p__color">worked on projects</p>
       </div>
 
       <div className="container">
@@ -79,9 +79,9 @@ function Projects() {
             </div>
           </div>
 
-          <div className="view__mmore__btn d__flex align__items__center justify__content__center pxy__30">
+          {/* <div className="view__mmore__btn d__flex align__items__center justify__content__center pxy__30">
             <button className="view__more pointer btn">View More</button>
-          </div>
+          </div> */} {/* wanted to included a view more button but cant figure out the documentations (future development) */}
 
         </div>
       </div>
