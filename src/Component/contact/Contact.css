@@ -1,8 +1,8 @@
-h1.contact_text{
+h1.contact__text{
     font-size: 60px;
 }
 
-p.contact_text{
+p.contact__text{
     font-size: 18px;
     line-height: 30px;
     color: rgba(29,29,36, .75);
