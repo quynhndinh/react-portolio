@@ -19,7 +19,7 @@ function Contact() {
                         <div className='contact__meta'>
                             <h1 className='contact__text align__item__center'>Contact Me</h1>
                             <p className='contact__text white'>Want to ask me some questions about my work?</p>
-                            <p className='contact__text white'>Contact me via email <strong>quynhndinh96@gmail.com</strong></p>
+                            <p className='contact__text white'>Contact me via email <strong>quynh.dinh.developer@gmail.com</strong></p>
                             <div className='input__box'>
                                 <form className='row' onSubmit={sendEmail}>
                                 <input type='text' className='contact name' placeholder='Your name *' name='name'/>
