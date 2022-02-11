@@ -69,10 +69,10 @@ function Projects() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Development</h5>
                 <h4 className="project__text">Pokebeats</h4>
-                <a href="https://negronmarc.github.io/Poke-Beats/" target="blank" className="project__btn deployed">
+                <a href="https://negronmarc.github.io/PokeBeats/" target="blank" className="project__btn deployed">
                   Deployed
                 </a>
-                <a href="https://github.com/negronmarc/Poke-Beats" target="blank" className="project__btn github">
+                <a href="https://github.com/negronmarc/PokeBeats" target="blank" className="project__btn github">
                   Github
                 </a>
               </div>

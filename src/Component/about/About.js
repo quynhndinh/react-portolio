@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "../../image/Profile.jpg";
-import resumePdf from "../../image/resume.pdf";
+import resumePdf from "../../image/Quynh Dinh.pdf";
 
 function About() {
  
@@ -17,7 +17,7 @@ function About() {
             <div className="about__meta">
               <p className="about__text p__color">
                 Student at Rutgers Coding bootcamp, starting a new career path.
-                Currently learning HTML CSS and Javascript.
+                Currently learning HTML, CSS, and Javascript.
               </p>
               <p className="about__text p__color">
                 Thank you for joining with me on this learning adventure.
